@@ -1,0 +1,72 @@
+/* 0269fe */
+/* 4bf6d5 */
+
+@font-face {
+  font-family: Amethyst;
+  src: url(font/Amethyst.ttf);
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  font-family: Helvetica;
+}
+
+.wrapper {
+  width: 65%;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0px 10px 26px -8px rgba(0,0,0,0.75);
+}
+
+.logo {
+  display: inline-block;
+  font-family: Amethyst;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+}
+
+.navigatie {
+  width: auto;
+  float: right;
+}
+
+.navigatie ul, .navigatie li, .navigatie a {
+  display: inline-block;
+  text-align: center;
+}
+
+.navigatie ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navigatie li {
+  width: auto;
+}
+
+.navigatie a {
+  height: 100px;
+  padding: 1em;
+  padding-top: 3em;
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.navigatie li:hover, .navigatie a:hover {
+  border-bottom: 2px solid #4bf6d5;
+}
