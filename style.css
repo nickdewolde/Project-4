@@ -12,6 +12,7 @@ body {
   width: 80%;
   max-width: 1920px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .header {
@@ -75,7 +76,7 @@ body {
   border-bottom: 4px solid #2968ce;
 }
 
-#Content .container {
+#Content {
   width: 100%;
 }
 
@@ -117,4 +118,13 @@ body {
   text-align: center;
   color: white;
   font-size: 1.5em;
+}
+
+.centered {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#Footer {
+  background-color: #f2f2f2;
 }
