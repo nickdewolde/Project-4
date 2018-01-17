@@ -14,7 +14,6 @@ body {
   width: 80%;
   max-width: 1920px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .header {
@@ -111,6 +110,13 @@ body {
   box-sizing: border-box;
 }
 
+.bio-wrapper2 {
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .bigger {
   text-align: center;
   color: white;
@@ -138,9 +144,166 @@ body {
   font-size: 1.5em;
 }
 
+.pakket {
+  width: 20%;
+  margin: 0% 10%;
+  padding: 10px;
+  float: left;
+  background-color: #f2f2f2;
+  border: 5px solid #2968ce;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.pakket ul {
+  text-align: left;
+}
+
+.bestellen {
+  width: 70%;
+  cursor: pointer;
+  margin: auto;
+  line-height: 1.7em;
+  background-color: #2968ce;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.left {
+  float: left;
+  text-align: center;
+}
+
+.right {
+  float: right;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.pakket img {
+  width: 80%;
+}
+
+.clear {
+  clear: both;
+  margin-bottom: 40px;
+}
+
+.clear_both {
+  clear: both;
+}
+
+iframe {
+ width: 80%;
+ height: 300px;
+ border: 2px solid #2968ce;
+ box-sizing: border-box;
+ float: right;
+}
+
+.contact-info {
+  float: left;
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-info p span img {
+  height: 1em;
+  margin-right: 10px;
+}
+
+form {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+form h1, form p {
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 18px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #2968ce;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+input[type=submit] {
+    background-color: #2968ce;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: #2968ce;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.review {
+  text-align: center;
+}
+
+.review_item {
+  width: 100%;
+  margin: 1em 0em;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+.review_item img {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #2968ce;
+  border-radius: 100px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.review_item p {
+  width: 85%;
+  float: left;
+  margin-left: 30px;
+  font-size: 1.3em;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+strong {
+  font-size: 1.5em;
+}
+
 #Footer {
   width: 100%;
   padding: 1em;
   background-color: #f2f2f2;
+  text-align: center;
   box-sizing: border-box;
 }
