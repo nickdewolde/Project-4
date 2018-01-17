@@ -56,7 +56,8 @@ body {
 .navigatie li {
   display: inline-block;
   position: relative;
-  width: 100px;
+  margin: 0px 5px;
+  padding: 0px 10px;
   height: 70px;
 }
 
