@@ -31,7 +31,7 @@
         <h1>Hosting pakketten:</h1>
       </div>
 
-      <div class="pakket left">
+      <div id="Pakket" class="pakket left">
         <img src="img/brons.png" alt="bronze medaillon">
         <h1>Brons</h1>
         <ul>
@@ -41,7 +41,7 @@
           <li>100GB dataverkeer</li>
         </ul>
         <p>€5,95 per maand</p>
-        <div class="bestellen">
+        <div class="bestellen" onClick="Bestellen()">
           <p>Bestellen</p>
         </div>
       </div>
@@ -56,7 +56,7 @@
           <li>200GB dataverkeer</li>
         </ul>
         <p>€7,95 per maand</p>
-        <div class="bestellen">
+        <div class="bestellen" onClick="Bestellen()">
           <p>Bestellen</p>
         </div>
       </div>
@@ -71,7 +71,7 @@
           <li>Onbeperkt dataverkeer</li>
         </ul>
         <p>€5,95 per maand</p>
-        <div class="bestellen">
+        <div class="bestellen" onClick="Bestellen()">
           <p>Bestellen</p>
         </div>
       </div>
@@ -79,11 +79,16 @@
       <div class="clear"></div>
     </div>
 
+    <a onClick="Horizontaal()">Horizontaal</a>
+    <br>
+    <a onClick="Verticaal()">Verticaal</a>
+
     <footer id="Footer" class="footer">
       <div class="wrapper">
         <p>© Copyright COLICSS 2018. Alle rechten voorbehouden. Tenzij anders vermeld berusten alle rechten op informatie (tekst, beeld, geluid, video, etc) die u op deze site (COLICSS.nl en alle onderliggende pagina’s) aantreft bij COLICSS of zijn gelicenceerd aan COLICSS.</p>
       </div>
     </footer>
 
+    <script src="script.js" rel="text/javascript"></script>
   </body>
 </html>
