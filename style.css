@@ -46,13 +46,13 @@ body {
   text-align: center;
 }
 
-.navigatie ul {
+.navigatie ul, .navigatie_blue ul {
   list-style-type: none;
   margin: auto;
   padding: 0;
 }
 
-.navigatie li {
+.navigatie li, .navigatie_blue li {
   display: inline-block;
   position: relative;
   margin: 0px 5px;
@@ -60,7 +60,7 @@ body {
   height: 70px;
 }
 
-.navigatie a {
+.navigatie a, .navigatie_blue a {
   display: block;
   height: 70px;
   color: black;
@@ -69,7 +69,7 @@ body {
   vertical-align: middle;
 }
 
-.navigatie p {
+.navigatie p, .navigatie_blue p {
   display: inline-flex;
 }
 
@@ -78,9 +78,19 @@ body {
   border-bottom: 4px solid #2968ce;
 }
 
+.navigatie_blue li:hover, .navigatie_blue a:hover {
+  box-sizing: border-box;
+  border-bottom: 4px solid #ff4444;
+}
+
 .navigatie .active {
   box-sizing: border-box;
   border-bottom: 4px solid #2968ce;
+}
+
+.navigatie_blue .active {
+  box-sizing: border-box;
+  border-bottom: 4px solid #ff4444;
 }
 
 .reclame-block {
@@ -321,6 +331,29 @@ strong {
   width: 50%;
   height: 50px;
   margin: 0 auto;
+}
+
+.color_picker {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.red, .blue {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: 6px;
+}
+
+.red {
+  background-color: #ff4444;
+}
+
+.blue {
+  background-color: #2968ce;
 }
 
 #Footer {

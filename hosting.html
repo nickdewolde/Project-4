@@ -7,7 +7,11 @@
   </head>
   <body>
 
-    <header class="header">
+    <header id="header" class="header">
+      <div class="color_picker">
+        <a class="red" type="button" onclick="Red()"></a>
+        <a class="blue" type="button" onclick="Normaal()"></a>
+      </div>
       <div class="wrapper">
         <div class="logo-wrapper">
           <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo COLICSS"></a>
@@ -15,7 +19,7 @@
         <nav id="Navigatie" class="navigatie">
           <ul>
             <li><a href="index.html"><p>Algemeen</p></a></li>
-            <li class="active"><a><p>Hosting</p></a></li>
+            <li id="active" class="active"><a><p>Hosting</p></a></li>
             <li><a href="cloud.html"><p>Cloud</p></a></li>
             <li><a href="contact.html"><p>Contact</p></a></li>
             <li><a href="klanten.html"><p>Klanten</p></a></li>
@@ -26,13 +30,12 @@
     </header>
 
     <div class="wrapper">
-
       <div class="bio-wrapper2">
         <h1>Hosting pakketten:</h1>
       </div>
 
-      <div id="Pakket" class="pakket left">
-        <img src="img/brons.png" alt="bronze medaillon">
+      <div id="Pakket1" class="pakket left">
+        <img name="image" src="img/brons.png" alt="bronze medaillon">
         <h1>Brons</h1>
         <ul>
           <li>10GB HDD</li>
@@ -41,13 +44,13 @@
           <li>100GB dataverkeer</li>
         </ul>
         <p>€5,95 per maand</p>
-        <div class="bestellen" onClick="Bestellen()">
+        <div id="Bestellen1" class="bestellen" onClick="Bestellen()">
           <p>Bestellen</p>
         </div>
       </div>
 
-      <div class="pakket center">
-        <img src="img/silver.png" alt="zilveren medaillon">
+      <div id="Pakket2" class="pakket center">
+        <img name="image" src="img/silver.png" alt="zilveren medaillon">
         <h1>Silver</h1>
         <ul>
           <li>20GB HDD</li>
@@ -56,13 +59,13 @@
           <li>200GB dataverkeer</li>
         </ul>
         <p>€7,95 per maand</p>
-        <div class="bestellen" onClick="Bestellen()">
+        <div id="Bestellen2" class="bestellen" onClick="Bestellen()">
           <p>Bestellen</p>
         </div>
       </div>
 
-      <div class="pakket right">
-        <img src="img/goud.png" alt="gouden medaillon">
+      <div id="Pakket3" class="pakket right">
+        <img name="image" src="img/goud.png" alt="gouden medaillon">
         <h1>Goud</h1>
         <ul>
           <li>50GB HDD</li>
@@ -71,17 +74,13 @@
           <li>Onbeperkt dataverkeer</li>
         </ul>
         <p>€5,95 per maand</p>
-        <div class="bestellen" onClick="Bestellen()">
+        <div id="Bestellen3" class="bestellen" onClick="Bestellen()">
           <p>Bestellen</p>
         </div>
       </div>
 
       <div class="clear"></div>
     </div>
-
-    <a onClick="Horizontaal()">Horizontaal</a>
-    <br>
-    <a onClick="Verticaal()">Verticaal</a>
 
     <footer id="Footer" class="footer">
       <div class="wrapper">

@@ -15,10 +15,24 @@ function Bedankt() {
   alert("Bedankt voor het invullen van het contact formulier, wij zullen hier zo spoedig mogelijk op antwoorden.")
 }
 
-function Verticaal() {
-  document.getElementById("pakket").style.width = "";
+function Red() {
+  document.getElementById("header").style.borderBottom = "2px solid #ff4444";
+  document.getElementById("Pakket1").style.border = "5px solid #ff4444";
+  document.getElementById("Pakket2").style.border = "5px solid #ff4444";
+  document.getElementById("Pakket3").style.border = "5px solid #ff4444";
+  document.getElementById("Bestellen1").style.background = "#ff4444";
+  document.getElementById("Bestellen2").style.background = "#ff4444";
+  document.getElementById("Bestellen3").style.background = "#ff4444";
+  document.getElementById("Navigatie").className = "navigatie_blue";
 }
 
-function Horizontaal() {
-  document.getElementById("pakket").style.width = "100px";
+function Normaal() {
+  document.getElementById("header").style.borderBottom = "";
+  document.getElementById("Pakket1").style.border = "";
+  document.getElementById("Pakket2").style.border = "";
+  document.getElementById("Pakket3").style.border = "";
+  document.getElementById("Bestellen1").style.background = "";
+  document.getElementById("Bestellen2").style.background = "";
+  document.getElementById("Bestellen3").style.background = "";
+  document.getElementById("Navigatie").className = "navigatie";
 }
